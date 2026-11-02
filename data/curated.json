@@ -1,0 +1,119 @@
+{
+  "_readme": "Manually curated facts. The updater never edits this file and never classifies a closed PR as integrated on its own. 'class' values: squashed (closed, maintainer squashed it onto main, commit verified), consolidated (closed, author-credited commits verified as ancestors of upstream main via a replacement/consolidation PR), retained (closed, kept in a replacement PR, no proof of integration). Merged/open/draft come from GitHub live.",
+  "verified_on": "2026-11-02",
+  "owner": "Jelly-RayTian",
+  "upstream_main_checks": {
+    "willfaust/Madeira": "Blobless clone of willfaust/Madeira; `git merge-base --is-ancestor <sha> main` and `git log main --author=Jelly-RayTian`."
+  },
+  "prs": {
+    "willfaust/Madeira#396": {
+      "class": "consolidated",
+      "summary": "Restricts failed fixed-address relocation in the iOS ntdll virtual-memory layer to the existing helper workaround; adds a regression fixture.",
+      "ack": [{"text": "Maintainer: covered by #447; fixed-address fix and regression tests retained, original commits and author details kept.", "url": "https://github.com/willfaust/Madeira/pull/396#issuecomment-6431649070"}],
+      "evidence": [{"label": "08bd6e0 (my commit, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/08bd6e0bbaaeb678b37c0288c1ef4dfd97e7465d"}],
+      "related": [{"label": "#447 (replacement, closed)", "url": "https://github.com/willfaust/Madeira/pull/447"}, {"label": "#461 (merged integration)", "url": "https://github.com/willfaust/Madeira/pull/461"}],
+      "note": "tests/x64/fixed-reserve.c is byte-identical on main; virtual_ios.c and the host check were edited later."
+    },
+    "willfaust/Madeira#399": {
+      "summary": "Detects optional rusage diagnostic fields in the iOS SDK so the build works across SDK versions.",
+      "evidence": [{"label": "a24f19d on main", "url": "https://github.com/willfaust/Madeira/commit/a24f19d"}],
+      "ack": []
+    },
+    "willfaust/Madeira#400": {
+      "class": "consolidated",
+      "summary": "Opt-in Windows x64 Vulkan route for iOS (Wine Vulkan forwarding to MoltenVK via a retained CAMetalLayer), with enumerate, clear/readback and present fixtures and host checks.",
+      "ack": [{"text": "Maintainer: work retained in #454 with source commits and author credit; #400 retained-layer surface lifetime and failure handling kept.", "url": "https://github.com/willfaust/Madeira/pull/400#issuecomment-6434402942"}, {"text": "Maintainer: combined failure and lifetime checks from #88 into this PR (4014c312).", "url": "https://github.com/willfaust/Madeira/pull/400#issuecomment-6430070567"}],
+      "evidence": [{"label": "ac746ed (my commit, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/ac746eda2f6de26da0156d445d904331ff7b1429"}, {"label": "7860030 (my merge of main, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/786003017bf63218399324e1c368b5493133e1a2"}, {"label": "7ed32a9 = #462 integration commit on main", "url": "https://github.com/willfaust/Madeira/commit/7ed32a9be9e0729525b80d6bc726cc3a844ffaad"}],
+      "related": [{"label": "#454 (replacement, closed)", "url": "https://github.com/willfaust/Madeira/pull/454"}, {"label": "#462 (integration, closed; commit on main)", "url": "https://github.com/willfaust/Madeira/pull/462"}],
+      "note": "Ancestry and file presence on main verified (build/vulkan-ios/*, tests/host/check-vulkan-*.py, tests/x64/vulkan-*.c). I did not verify that every line of the original route is unchanged, nor that the route runs in the current main build."
+    },
+    "willfaust/Madeira#451": {
+      "class": "consolidated",
+      "summary": "Ships the registered TaskbarList COM server (explorerframe.dll) in the Wine PE package and adds x64 activation coverage; fixes a startup crash reported by a user.",
+      "ack": [{"text": "Maintainer: retained in #444 with source commits and author credit.", "url": "https://github.com/willfaust/Madeira/pull/451#issuecomment-6434410501"}, {"text": "Independent user (cx-game3601): with the explorerframe.dll stub, the affected game gets past TaskbarList activation and creates a window (a separate WebView2 issue remains).", "url": "https://github.com/willfaust/Madeira/pull/451#issuecomment-6436633656"}],
+      "evidence": [{"label": "a0cfe59 (my commit, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/a0cfe594dc1533c96507e662502f976b2c0a7a47"}, {"label": "7ed32a9 = #462 integration commit on main", "url": "https://github.com/willfaust/Madeira/commit/7ed32a9be9e0729525b80d6bc726cc3a844ffaad"}],
+      "related": [{"label": "#444 (replacement, closed)", "url": "https://github.com/willfaust/Madeira/pull/444"}],
+      "note": "explorerframe.dll, docs/TASKBARLIST.md, the host check and the x64 fixture are byte-identical on main. The device run in my own PR comment was on the original #451 package, not the integrated build."
+    },
+    "willfaust/Madeira#456": {
+      "class": "consolidated",
+      "summary": "Isolated MoltenVK 1.4.2 backport so a direct vkGetPipelineCacheData call succeeds without a prior size query, plus a source-build helper and an x64/macOS Vulkan regression.",
+      "ack": [{"text": "Maintainer: included in #462; patch, helper and regression retained byte for byte; source head and author history remain.", "url": "https://github.com/willfaust/Madeira/pull/456#issuecomment-6454188199"}],
+      "evidence": [{"label": "2976e64 (my commit, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/2976e6450520de092467f51cc5b796ea86ada046"}, {"label": "7ed32a9 = #462 integration commit on main", "url": "https://github.com/willfaust/Madeira/commit/7ed32a9be9e0729525b80d6bc726cc3a844ffaad"}],
+      "related": [{"label": "#462 (integration, closed; commit on main)", "url": "https://github.com/willfaust/Madeira/pull/462"}],
+      "note": "All 8 files from my commit are byte-identical on main (verified by blob hash)."
+    },
+    "willfaust/Madeira#458": {
+      "summary": "Documents Detroit: Become Human menu and interactive-scene observations on an experimental iPad build, with screenshots and explicit limits.",
+      "evidence": [{"label": "fed7f6a on main", "url": "https://github.com/willfaust/Madeira/commit/fed7f6a"}],
+      "ack": []
+    },
+    "willfaust/Madeira#465": {
+      "class": "consolidated",
+      "summary": "Decodes the UTF-8 initial working directory before building its NT path (non-ASCII launch folders), with host regression and Windows probe.",
+      "ack": [{"text": "Maintainer: UTF-8 working-directory fix, host regression, Windows probe and documentation now included in #461; original commit retained in the merge history.", "url": "https://github.com/willfaust/Madeira/pull/465#issuecomment-6459661572"}],
+      "evidence": [{"label": "28ce806 (my commit, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/28ce806af787222e65bb60e86c447ef04ace812e"}, {"label": "a9ce1d4 = #461 (merged) on main", "url": "https://github.com/willfaust/Madeira/commit/a9ce1d403b608108a141a260dccefe73cde940b4"}],
+      "related": [{"label": "#461 (merged integration PR, not mine)", "url": "https://github.com/willfaust/Madeira/pull/461"}, {"label": "#462", "url": "https://github.com/willfaust/Madeira/pull/462"}],
+      "note": "Docs and fixture are byte-identical on main; env_ios.c was edited later (including by #471)."
+    },
+    "willfaust/Madeira#471": {
+      "class": "squashed",
+      "summary": "Reserves enough startup storage for current directories of 260+ UTF-16 units so later strings no longer overwrite the directory; ASan/UBSan host reproduction (12/24 cases failed on base, 24/24 pass).",
+      "ack": [{"text": "Maintainer: squashed onto main as 16b3382b, authorship and sign-off kept.", "url": "https://github.com/willfaust/Madeira/pull/471#issuecomment-6461227579"}],
+      "evidence": [{"label": "16b3382 (author: me, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/16b3382b95c1f4500b4efcb00619483974a83f78"}],
+      "related": [],
+      "note": "Closed by hand because its branch history contained the #461 draft head."
+    },
+    "willfaust/Madeira#472": {
+      "class": "squashed",
+      "summary": "Stops Steam Cloud sync from treating an unreadable local save or incomplete checksum as proof of a local edit (no automatic upload; keeps it as a conflict); eight added cases.",
+      "ack": [{"text": "Maintainer: squashed onto main as 0b4eee5a, authorship and sign-off kept.", "url": "https://github.com/willfaust/Madeira/pull/472#issuecomment-6461228278"}],
+      "evidence": [{"label": "0b4eee5 (author: me, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/0b4eee5a6ca891b824c2f487438c347c780d5509"}],
+      "related": [],
+      "note": "Closed by hand for the same reason as #471."
+    },
+    "willfaust/Madeira#473": {
+      "class": "squashed",
+      "summary": "Balances Core Foundation ownership (task and copied values) in runtime entitlement checks.",
+      "ack": [{"text": "Maintainer: on main as dab079b7, part of wave 6 (c3279921); closed because stacked commits were already on main.", "url": "https://github.com/willfaust/Madeira/pull/473#issuecomment-6567717620"}],
+      "evidence": [{"label": "dab079b (author: me, ancestor of main)", "url": "https://github.com/willfaust/Madeira/commit/dab079b70bba7e2b37e3c7f7326130c503fb2ead"}],
+      "related": [],
+      "note": ""
+    },
+    "willfaust/Madeira#486": {
+      "summary": "Propagates local depot write errors instead of retrying healthy CDNs in the Steam downloader.",
+      "ack": []
+    },
+    "willfaust/Madeira#501": {
+      "summary": "Logs an original that cannot be removed after a verified copy during a move.",
+      "ack": []
+    },
+    "willfaust/Madeira#502": {
+      "summary": "Draft: exposes the complete experimental Vulkan source profile and reproduction artifacts (Detroit iPad investigation).",
+      "ack": [],
+      "note": "Experimental draft; no integration claimed."
+    },
+    "PDFCraftTool/pdfcraft#252": {"summary": "Studio: show, reorder and remove files before appending.", "ack": []},
+    "PDFCraftTool/pdfcraft#253": {"summary": "Editor: reopening Find selects the previous query.", "ack": []},
+    "PDFCraftTool/pdfcraft#254": {"summary": "Workflow filename interpolation keeps substituted values literal (e.g. $& and {date} inside a filename) using a single-pass token replacement.", "ack": []},
+    "PDFCraftTool/pdfcraft#255": {"summary": "Bookmarks: dropping a node onto its own descendant preserves the subtree.", "ack": []},
+    "PDFCraftTool/pdfcraft#257": {"summary": "Page labels: writes prefixes as UTF-16 text strings so Chinese, Greek, Hebrew and emoji survive save and reload.", "ack": []},
+    "PDFCraftTool/pdfcraft#264": {"summary": "Page labels: clips oversized ranges to the document and shares one parser so preview and export no longer freeze.", "ack": []},
+    "PDFCraftTool/pdfcraft#265": {"summary": "PDF to ZIP: preserves documents with duplicate filenames.", "ack": []},
+    "PDFCraftTool/pdfcraft#266": {"summary": "Rotate: updates page rotation in place for multiples of 90 degrees so forms, bookmarks, links, attachments and labels survive.", "ack": []},
+    "PDFCraftTool/pdfcraft#267": {"summary": "Bookmarks: retains destination position, zoom and fit mode.", "ack": []},
+    "PDFCraftTool/pdfcraft#268": {"summary": "Metadata: preserves unedited fields and honours the date opt-out.", "ack": []},
+    "PDFCraftTool/pdfcraft#273": {"summary": "Reader: remembered right-to-left spread order.", "ack": []},
+    "PDFCraftTool/pdfcraft#274": {"summary": "Editor: preserves object aspect ratio while Shift-resizing.", "ack": []},
+    "PDFCraftTool/pdfcraft#277": {"summary": "Bookmarks: move multi-selections across the outline tree.", "ack": []},
+    "PDFCraftTool/pdfcraft#278": {"summary": "Test: covers editing PDFs containing zero-width spaces.", "ack": []},
+    "DaKheera47/job-ops#787": {"summary": "Preserves Reactive Resume v5.3 semantic style metadata (stylesheet, styleRules) across import, template merge and export, with validation of style targets and values.", "ack": [{"text": "Maintainer: \"thanks for the contribution!\"", "url": "https://github.com/DaKheera47/job-ops/pull/787#issuecomment-6445299749"}]},
+    "DaKheera47/job-ops#788": {"summary": "Parses date-only postings at local midnight and counts calendar days across DST so posting age, tooltip and sort are right in America/Toronto.", "ack": [{"text": "Maintainer: \"nice! thanks for the contribution!\"", "url": "https://github.com/DaKheera47/job-ops/pull/788#issuecomment-6445283059"}]},
+    "DaKheera47/job-ops#789": {"summary": "Manual Import accepts text PDFs: client-side PDF.js extraction with size/page/character limits, reviewed text sent through the existing analysis flow.", "ack": [{"text": "Maintainer: \"good fix! thanks for the contribution!\"", "url": "https://github.com/DaKheera47/job-ops/pull/789#issuecomment-6445274915"}]},
+    "DaKheera47/job-ops#791": {"summary": "Optional lean scoring and Claude CLI modes to reduce AI usage.", "ack": []},
+    "DaKheera47/job-ops#792": {"summary": "Adds a Simplified Chinese (zh-CN) interface language.", "ack": []},
+    "DaKheera47/job-ops#793": {"summary": "Include/exclude keyword filters for the jobs list.", "ack": []},
+    "DaKheera47/job-ops#794": {"summary": "LLM responses: preserves fenced text and completes JSON response values.", "ack": []},
+    "DaKheera47/job-ops#795": {"summary": "Exports filtered and selected jobs to CSV.", "ack": []}
+  }
+}
