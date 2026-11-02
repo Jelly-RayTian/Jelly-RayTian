@@ -12,11 +12,11 @@ Contents: [Statistics](#statistics) · [Status definitions](#status-definitions)
 | Repository | PRs | Merged | Squashed onto main | Consolidated | Open | Draft | Closed, unverified |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | [DaKheera47/job-ops](https://github.com/DaKheera47/job-ops) | 9 | 3 | 0 | 0 | 6 | 0 | 0 |
-| [PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft) | 14 | 10 | 0 | 0 | 4 | 0 | 0 |
-| [willfaust/Madeira](https://github.com/willfaust/Madeira) | 13 | 4 | 3 | 5 | 0 | 1 | 0 |
-| **External total** | **36** | **17** | **3** | **5** | **10** | **1** | **0** |
+| [PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft) | 23 | 10 | 0 | 0 | 13 | 0 | 0 |
+| [willfaust/Madeira](https://github.com/willfaust/Madeira) | 14 | 4 | 3 | 5 | 1 | 1 | 0 |
+| **External total** | **46** | **17** | **3** | **5** | **20** | **1** | **0** |
 
-Pull requests in my own repositories (not counted above): **9** (8 merged, 1 closed unmerged, 0 open). All PRs authored by `Jelly-RayTian`: **45**.
+Pull requests in my own repositories (not counted above): **9** (8 merged, 1 closed unmerged, 0 open). All PRs authored by `Jelly-RayTian`: **55**.
 <!-- END GENERATED:summary -->
 
 "Squashed" and "consolidated" PRs are **not** counted as merged. Each is counted exactly once, under its own status; replacement PRs written by maintainers are not counted at all.
@@ -150,6 +150,15 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 | [#274](https://github.com/PDFCraftTool/pdfcraft/pull/274) | fix(editor): preserve object aspect ratio while Shift-resizing | Open | n/a |
 | [#277](https://github.com/PDFCraftTool/pdfcraft/pull/277) | feat(bookmarks): move multi-selections across the outline tree | Open | n/a |
 | [#278](https://github.com/PDFCraftTool/pdfcraft/pull/278) | test(editor): cover editing PDFs containing zero-width spaces | Open | n/a |
+| [#280](https://github.com/PDFCraftTool/pdfcraft/pull/280) | fix(reverse): retain forms, bookmarks, links and metadata when reversing pages | Open | n/a |
+| [#281](https://github.com/PDFCraftTool/pdfcraft/pull/281) | fix(add-blank-page): retain forms, bookmarks, links and metadata | Open | n/a |
+| [#282](https://github.com/PDFCraftTool/pdfcraft/pull/282) | fix(remove-blank-pages): retain forms, bookmarks, links and metadata | Open | n/a |
+| [#283](https://github.com/PDFCraftTool/pdfcraft/pull/283) | fix(background-color): retain forms, bookmarks, links and metadata | Open | n/a |
+| [#284](https://github.com/PDFCraftTool/pdfcraft/pull/284) | fix(rotate-custom): retain forms, bookmarks, links and metadata for right-angle rotations | Open | n/a |
+| [#285](https://github.com/PDFCraftTool/pdfcraft/pull/285) | fix: let page-embedding tools handle blank pages that have no content stream | Open | n/a |
+| [#286](https://github.com/PDFCraftTool/pdfcraft/pull/286) | fix(organize): retain forms, bookmarks, links and metadata in the pdf-lib path | Open | n/a |
+| [#287](https://github.com/PDFCraftTool/pdfcraft/pull/287) | fix(fix-page-size): honour the /Rotate of source pages | Open | n/a |
+| [#288](https://github.com/PDFCraftTool/pdfcraft/pull/288) | fix(n-up): honour the /Rotate of source pages | Open | n/a |
 
 #### [PDFCraftTool/pdfcraft#252](https://github.com/PDFCraftTool/pdfcraft/pull/252): fix(studio): show, reorder and remove files before appending
 
@@ -234,7 +243,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 #### [PDFCraftTool/pdfcraft#273](https://github.com/PDFCraftTool/pdfcraft/pull/273): feat(reader): add remembered right-to-left spread order
 
 - **Description:** Reader: remembered right-to-left spread order.
-- **GitHub status:** Open; opened 2026-10-29; +126 / −1 in 5 files.
+- **GitHub status:** Open; opened 2026-10-29; +183 / −1 in 7 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
@@ -242,7 +251,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 #### [PDFCraftTool/pdfcraft#274](https://github.com/PDFCraftTool/pdfcraft/pull/274): fix(editor): preserve object aspect ratio while Shift-resizing
 
 - **Description:** Editor: preserves object aspect ratio while Shift-resizing.
-- **GitHub status:** Open; opened 2026-10-29; +53 / −3 in 3 files.
+- **GitHub status:** Open; opened 2026-10-29; +110 / −3 in 5 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
@@ -250,7 +259,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 #### [PDFCraftTool/pdfcraft#277](https://github.com/PDFCraftTool/pdfcraft/pull/277): feat(bookmarks): move multi-selections across the outline tree
 
 - **Description:** Bookmarks: move multi-selections across the outline tree.
-- **GitHub status:** Open; opened 2026-11-02; +233 / −86 in 4 files.
+- **GitHub status:** Open; opened 2026-11-02; +290 / −86 in 6 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
@@ -258,7 +267,79 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 #### [PDFCraftTool/pdfcraft#278](https://github.com/PDFCraftTool/pdfcraft/pull/278): test(editor): cover editing PDFs containing zero-width spaces
 
 - **Description:** Test: covers editing PDFs containing zero-width spaces.
-- **GitHub status:** Open; opened 2026-11-02; +107 / −0 in 2 files.
+- **GitHub status:** Open; opened 2026-11-02; +164 / −0 in 4 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#280](https://github.com/PDFCraftTool/pdfcraft/pull/280): fix(reverse): retain forms, bookmarks, links and metadata when reversing pages
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +91 / −13 in 2 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#281](https://github.com/PDFCraftTool/pdfcraft/pull/281): fix(add-blank-page): retain forms, bookmarks, links and metadata
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +85 / −26 in 2 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#282](https://github.com/PDFCraftTool/pdfcraft/pull/282): fix(remove-blank-pages): retain forms, bookmarks, links and metadata
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +92 / −5 in 2 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#283](https://github.com/PDFCraftTool/pdfcraft/pull/283): fix(background-color): retain forms, bookmarks, links and metadata
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +122 / −26 in 2 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#284](https://github.com/PDFCraftTool/pdfcraft/pull/284): fix(rotate-custom): retain forms, bookmarks, links and metadata for right-angle rotations
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +94 / −4 in 2 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#285](https://github.com/PDFCraftTool/pdfcraft/pull/285): fix: let page-embedding tools handle blank pages that have no content stream
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +108 / −9 in 12 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#286](https://github.com/PDFCraftTool/pdfcraft/pull/286): fix(organize): retain forms, bookmarks, links and metadata in the pdf-lib path
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +107 / −11 in 2 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#287](https://github.com/PDFCraftTool/pdfcraft/pull/287): fix(fix-page-size): honour the /Rotate of source pages
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +56 / −8 in 2 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [PDFCraftTool/pdfcraft#288](https://github.com/PDFCraftTool/pdfcraft/pull/288): fix(n-up): honour the /Rotate of source pages
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +67 / −8 in 2 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
@@ -280,6 +361,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 | [#486](https://github.com/willfaust/Madeira/pull/486) | steam: propagate local depot write errors without retrying healthy CDNs | Merged | Yes |
 | [#501](https://github.com/willfaust/Madeira/pull/501) | move: log an original that cannot be removed after a verified copy | Merged | Yes |
 | [#502](https://github.com/willfaust/Madeira/pull/502) | vulkan: expose the complete experimental source profile and reproduction artifacts | Draft / experimental | n/a |
+| [#544](https://github.com/willfaust/Madeira/pull/544) | README: say how to add a game after installing | Open | n/a |
 
 #### [willfaust/Madeira#396](https://github.com/willfaust/Madeira/pull/396): ntdll: scope failed fixed-address relocation to the existing helper workaround
 
@@ -406,6 +488,14 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Note:** Experimental draft; no integration claimed.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [willfaust/Madeira#544](https://github.com/willfaust/Madeira/pull/544): README: say how to add a game after installing
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +5 / −0 in 1 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
 - **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
 
 <!-- END GENERATED:external -->
