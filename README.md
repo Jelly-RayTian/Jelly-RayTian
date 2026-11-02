@@ -2,6 +2,8 @@
 
 Honours Mathematics (Co-operative Program) student at the **University of Waterloo**, interested in **software engineering, data science and quantitative development**. I build small, careful tools and contribute fixes to open-source projects, with an emphasis on reproducing a bug first and testing the fix.
 
+**Portfolio:** [jelly-raytian.github.io](https://jelly-raytian.github.io/) · [中文](https://jelly-raytian.github.io/zh/)
+
 ## Open-source contributions
 
 Verified against GitHub and upstream `main` history. Each pull request is counted once, under one status.
