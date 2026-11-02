@@ -9,7 +9,7 @@ Verified against GitHub and upstream `main` history. Each pull request is counte
 <!-- BEGIN GENERATED:stats -->
 | External PRs | Officially merged | Squashed onto upstream main | Consolidated, commits in upstream main | Open / draft |
 |--:|--:|--:|--:|--:|
-| **35** | **17** | **3** | **5** | **9 / 1** |
+| **36** | **17** | **3** | **5** | **10 / 1** |
 <!-- END GENERATED:stats -->
 
 - **Officially merged** means GitHub marks the PR merged.

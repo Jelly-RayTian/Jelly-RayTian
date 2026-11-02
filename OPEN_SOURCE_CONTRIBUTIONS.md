@@ -11,12 +11,12 @@ Contents: [Statistics](#statistics) · [Status definitions](#status-definitions)
 <!-- BEGIN GENERATED:summary -->
 | Repository | PRs | Merged | Squashed onto main | Consolidated | Open | Draft | Closed, unverified |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| [DaKheera47/job-ops](https://github.com/DaKheera47/job-ops) | 8 | 3 | 0 | 0 | 5 | 0 | 0 |
+| [DaKheera47/job-ops](https://github.com/DaKheera47/job-ops) | 9 | 3 | 0 | 0 | 6 | 0 | 0 |
 | [PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft) | 14 | 10 | 0 | 0 | 4 | 0 | 0 |
 | [willfaust/Madeira](https://github.com/willfaust/Madeira) | 13 | 4 | 3 | 5 | 0 | 1 | 0 |
-| **External total** | **35** | **17** | **3** | **5** | **9** | **1** | **0** |
+| **External total** | **36** | **17** | **3** | **5** | **10** | **1** | **0** |
 
-Pull requests in my own repositories (not counted above): **9** (8 merged, 1 closed unmerged, 0 open). All PRs authored by `Jelly-RayTian`: **44**.
+Pull requests in my own repositories (not counted above): **9** (8 merged, 1 closed unmerged, 0 open). All PRs authored by `Jelly-RayTian`: **45**.
 <!-- END GENERATED:summary -->
 
 "Squashed" and "consolidated" PRs are **not** counted as merged. Each is counted exactly once, under its own status; replacement PRs written by maintainers are not counted at all.
@@ -58,6 +58,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 | [#793](https://github.com/DaKheera47/job-ops/pull/793) | feat: add include/exclude keyword filters to the jobs list | Open | n/a |
 | [#794](https://github.com/DaKheera47/job-ops/pull/794) | fix(llm): preserve fenced text and complete JSON response values | Open | n/a |
 | [#795](https://github.com/DaKheera47/job-ops/pull/795) | feat(jobs): export filtered and selected jobs to CSV | Open | n/a |
+| [#801](https://github.com/DaKheera47/job-ops/pull/801) | feat(settings): refresh model suggestions without changing selection | Open | n/a |
 
 #### [DaKheera47/job-ops#787](https://github.com/DaKheera47/job-ops/pull/787): fix(resume): retain semantic style metadata across import and export
 
@@ -119,6 +120,14 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 
 - **Description:** Exports filtered and selected jobs to CSV.
 - **GitHub status:** Open; opened 2026-10-28; +400 / −4 in 7 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
+
+#### [DaKheera47/job-ops#801](https://github.com/DaKheera47/job-ops/pull/801): feat(settings): refresh model suggestions without changing selection
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-02; +187 / −2 in 3 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Last verified:** 2026-11-02 (curated notes) / 2026-11-02 (live status)
