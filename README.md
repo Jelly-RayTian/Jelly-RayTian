@@ -37,6 +37,13 @@ Many of these were developed with AI coding assistance, which the PR description
 - **[CodeCompass](https://github.com/Jelly-RayTian/CodeCompass)** and **[Chronicle](https://github.com/Jelly-RayTian/Chronicle)**: local-first desktop apps in Rust (Tauri for CodeCompass).
 - **[Madeira-Experimental](https://github.com/Jelly-RayTian/Madeira-Experimental)**: an unofficial research fork exploring Windows x64 Vulkan on iPad. Incomplete, and not an official Madeira port.
 
+## Hackathons
+
+Team projects from hackathons, kept together in the [CommunihacksSeed](https://github.com/CommunihacksSeed) organization. Both were built with teammates and with AI coding assistance.
+
+- **[SeedFlow](https://github.com/CommunihacksSeed/Seedtrack)** (CommuniHacks 2026, Challenge 3): seed request, inventory and order management for Youth in Food Systems. A prototype with fictional demo data, not an official YFS service.
+- **[Exodus](https://github.com/CommunihacksSeed/exodus)** (CIVIC Hack 2026): plain-language explanations of City of Toronto council decisions, each statement linked to the official record. [Live site](https://csclub.uwaterloo.ca/~j49ni/exodus/).
+
 ## Technologies (from the code above)
 
 TypeScript · Rust · C · Swift (small changes) · Python (tests and tooling) · Vulkan/MoltenVK basics · PDF internals (pdf-lib, PDF.js) · Git, GitHub Actions
