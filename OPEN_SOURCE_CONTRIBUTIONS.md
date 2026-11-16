@@ -1,6 +1,6 @@
 # Open-source contributions
 
-Complete record of pull requests authored by [`Jelly-RayTian`](https://github.com/Jelly-RayTian), checked against GitHub and upstream repositories. Live status last refreshed: <!-- GEN_DATE -->2026-11-09<!-- /GEN_DATE -->. Curated notes last verified: 2026-11-02.
+Complete record of pull requests authored by [`Jelly-RayTian`](https://github.com/Jelly-RayTian), checked against GitHub and upstream repositories. Live status last refreshed: <!-- GEN_DATE -->2026-11-16<!-- /GEN_DATE -->. Curated notes last verified: 2026-11-02.
 
 Contents: [Statistics](#statistics) · [Status definitions](#status-definitions) · [Key acknowledgments](#key-acknowledgments) · [External contributions by repository](#external-contributions-by-repository) · [PRs in my own repositories](#pull-requests-in-my-own-repositories) · [How this was verified](#how-this-was-verified) · [Case studies](CASE_STUDIES.md)
 
@@ -11,15 +11,16 @@ Contents: [Statistics](#statistics) · [Status definitions](#status-definitions)
 <!-- BEGIN GENERATED:summary -->
 | Repository | PRs | Merged | Squashed onto main | Consolidated | Open | Draft | Closed, unverified |
 |---|--:|--:|--:|--:|--:|--:|--:|
+| [CommunihacksSeed/exodus](https://github.com/CommunihacksSeed/exodus) | 11 | 11 | 0 | 0 | 0 | 0 | 0 |
 | [CommunihacksSeed/Seedtrack](https://github.com/CommunihacksSeed/Seedtrack) | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
 | [DaKheera47/job-ops](https://github.com/DaKheera47/job-ops) | 9 | 3 | 0 | 0 | 6 | 0 | 0 |
-| [Leviidev/Henge](https://github.com/Leviidev/Henge) | 3 | 0 | 0 | 0 | 2 | 0 | 1 |
-| [PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft) | 25 | 25 | 0 | 0 | 0 | 0 | 0 |
+| [Leviidev/Henge](https://github.com/Leviidev/Henge) | 3 | 2 | 0 | 0 | 0 | 0 | 1 |
+| [PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft) | 39 | 39 | 0 | 0 | 0 | 0 | 0 |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 1 | 0 | 0 | 0 | 1 | 0 | 0 |
-| [willfaust/Madeira](https://github.com/willfaust/Madeira) | 14 | 5 | 3 | 5 | 0 | 1 | 0 |
-| **External total** | **53** | **34** | **3** | **5** | **9** | **1** | **1** |
+| [willfaust/Madeira](https://github.com/willfaust/Madeira) | 15 | 5 | 3 | 5 | 1 | 1 | 0 |
+| **External total** | **79** | **61** | **3** | **5** | **8** | **1** | **1** |
 
-Pull requests in my own repositories (not counted above): **12** (11 merged, 1 closed unmerged, 0 open). All PRs authored by `Jelly-RayTian`: **65**.
+Pull requests in my own repositories (not counted above): **12** (11 merged, 1 closed unmerged, 0 open). All PRs authored by `Jelly-RayTian`: **91**.
 <!-- END GENERATED:summary -->
 
 "Squashed" and "consolidated" PRs are **not** counted as merged. Each is counted exactly once, under its own status; replacement PRs written by maintainers are not counted at all.
@@ -49,6 +50,110 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 ## External contributions by repository
 
 <!-- BEGIN GENERATED:external -->
+### [CommunihacksSeed/exodus](https://github.com/CommunihacksSeed/exodus)
+
+| PR | Title | Status | In upstream main |
+|--:|---|---|---|
+| [#1](https://github.com/CommunihacksSeed/exodus/pull/1) | Security hardening: CSP, link allowlist, geocoder checks, CI | Merged | Yes |
+| [#2](https://github.com/CommunihacksSeed/exodus/pull/2) | Resident tools: listen to the page, add the meeting to a calendar, share | Merged | Yes |
+| [#3](https://github.com/CommunihacksSeed/exodus/pull/3) | Game-style 3D map: time of day, storey-by-storey holograms, flight controls, guided tour | Merged | Yes |
+| [#4](https://github.com/CommunihacksSeed/exodus/pull/4) | New pages: How decisions are made, Words (glossary + tooltips), How we check, My ward | Merged | Yes |
+| [#5](https://github.com/CommunihacksSeed/exodus/pull/5) | French and Chinese interface, offline support, lazy-loaded maps, real app icon | Merged | Yes |
+| [#6](https://github.com/CommunihacksSeed/exodus/pull/6) | Docs: design document, README, submission pack and video script for PRs #1–#5 | Merged | Yes |
+| [#11](https://github.com/CommunihacksSeed/exodus/pull/11) | Opaque map controls, EN | FR | 中文 language switch, remove English-content banner | Merged | Yes |
+| [#13](https://github.com/CommunihacksSeed/exodus/pull/13) | Fix: odd building shapes in map tiles could blank the whole page | Merged | Yes |
+| [#14](https://github.com/CommunihacksSeed/exodus/pull/14) | Drive mode: a toy car on the 3D map, visit every decision | Merged | Yes |
+| [#15](https://github.com/CommunihacksSeed/exodus/pull/15) | Docs: drive mode and the map crash fix | Merged | Yes |
+| [#17](https://github.com/CommunihacksSeed/exodus/pull/17) | Human sign-off: all 15 explanations reviewed by Ray Tian | Merged | Yes |
+
+#### [CommunihacksSeed/exodus#1](https://github.com/CommunihacksSeed/exodus/pull/1): Security hardening: CSP, link allowlist, geocoder checks, CI
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +299 / −30 in 15 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#2](https://github.com/CommunihacksSeed/exodus/pull/2): Resident tools: listen to the page, add the meeting to a calendar, share
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +555 / −8 in 8 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#3](https://github.com/CommunihacksSeed/exodus/pull/3): Game-style 3D map: time of day, storey-by-storey holograms, flight controls, guided tour
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +628 / −37 in 6 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#4](https://github.com/CommunihacksSeed/exodus/pull/4): New pages: How decisions are made, Words (glossary + tooltips), How we check, My ward
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +1146 / −6 in 20 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#5](https://github.com/CommunihacksSeed/exodus/pull/5): French and Chinese interface, offline support, lazy-loaded maps, real app icon
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +1214 / −252 in 29 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#6](https://github.com/CommunihacksSeed/exodus/pull/6): Docs: design document, README, submission pack and video script for PRs #1–#5
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +117 / −12 in 4 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#11](https://github.com/CommunihacksSeed/exodus/pull/11): Opaque map controls, EN | FR | 中文 language switch, remove English-content banner
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +52 / −45 in 5 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#13](https://github.com/CommunihacksSeed/exodus/pull/13): Fix: odd building shapes in map tiles could blank the whole page
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +69 / −7 in 6 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#14](https://github.com/CommunihacksSeed/exodus/pull/14): Drive mode: a toy car on the 3D map, visit every decision
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +447 / −2 in 7 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#15](https://github.com/CommunihacksSeed/exodus/pull/15): Docs: drive mode and the map crash fix
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +24 / −6 in 3 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [CommunihacksSeed/exodus#17](https://github.com/CommunihacksSeed/exodus/pull/17): Human sign-off: all 15 explanations reviewed by Ray Tian
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-14; opened 2026-11-14; +75 / −75 in 17 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
 ### [CommunihacksSeed/Seedtrack](https://github.com/CommunihacksSeed/Seedtrack)
 
 | PR | Title | Status | In upstream main |
@@ -62,7 +167,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **In upstream main:** ⚠ check failed; see warning below.
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **⚠ Warning:** merge commit not reachable from default branch
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 ### [DaKheera47/job-ops](https://github.com/DaKheera47/job-ops)
 
@@ -84,7 +189,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-27; opened 2026-10-25; +208 / −1 in 6 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** [Maintainer: "thanks for the contribution!"](https://github.com/DaKheera47/job-ops/pull/787#issuecomment-6445299749)
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [DaKheera47/job-ops#788](https://github.com/DaKheera47/job-ops/pull/788): fix(jobs): preserve local posting dates across timezones and DST
 
@@ -92,7 +197,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-27; opened 2026-10-27; +49 / −8 in 3 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** [Maintainer: "nice! thanks for the contribution!"](https://github.com/DaKheera47/job-ops/pull/788#issuecomment-6445283059)
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [DaKheera47/job-ops#789](https://github.com/DaKheera47/job-ops/pull/789): feat(manual-import): read job descriptions from text PDFs
 
@@ -100,7 +205,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-27; opened 2026-10-27; +388 / −4 in 7 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** [Maintainer: "good fix! thanks for the contribution!"](https://github.com/DaKheera47/job-ops/pull/789#issuecomment-6445274915)
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [DaKheera47/job-ops#791](https://github.com/DaKheera47/job-ops/pull/791): feat: optional lean scoring and Claude CLI modes to reduce AI usage
 
@@ -108,7 +213,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Open; opened 2026-10-27; +288 / −4 in 13 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [DaKheera47/job-ops#792](https://github.com/DaKheera47/job-ops/pull/792): feat: add Simplified Chinese (zh-CN) interface language
 
@@ -116,7 +221,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Open; opened 2026-10-27; +3282 / −2183 in 84 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [DaKheera47/job-ops#793](https://github.com/DaKheera47/job-ops/pull/793): feat: add include/exclude keyword filters to the jobs list
 
@@ -124,7 +229,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Open; opened 2026-10-27; +243 / −0 in 13 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [DaKheera47/job-ops#794](https://github.com/DaKheera47/job-ops/pull/794): fix(llm): preserve fenced text and complete JSON response values
 
@@ -132,7 +237,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Open; opened 2026-10-27; +116 / −2 in 4 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [DaKheera47/job-ops#795](https://github.com/DaKheera47/job-ops/pull/795): feat(jobs): export filtered and selected jobs to CSV
 
@@ -140,7 +245,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Open; opened 2026-10-28; +400 / −4 in 7 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [DaKheera47/job-ops#801](https://github.com/DaKheera47/job-ops/pull/801): feat(settings): refresh model suggestions without changing selection
 
@@ -148,15 +253,15 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Open; opened 2026-11-02; +187 / −2 in 3 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 ### [Leviidev/Henge](https://github.com/Leviidev/Henge)
 
 | PR | Title | Status | In upstream main |
 |--:|---|---|---|
 | [#36](https://github.com/Leviidev/Henge/pull/36) | Use temporary disks in device tests | Closed, no verified integration | n/a |
-| [#60](https://github.com/Leviidev/Henge/pull/60) | Prevent hvsparse from overwriting its input | Open | n/a |
-| [#61](https://github.com/Leviidev/Henge/pull/61) | Block duplicate macOS installs during preflight | Open | n/a |
+| [#60](https://github.com/Leviidev/Henge/pull/60) | Prevent hvsparse from overwriting its input | Merged | Yes |
+| [#61](https://github.com/Leviidev/Henge/pull/61) | Block duplicate macOS installs during preflight | Merged | Yes |
 
 #### [Leviidev/Henge#36](https://github.com/Leviidev/Henge/pull/36): Use temporary disks in device tests
 
@@ -164,23 +269,23 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Closed, no verified integration (closed 2026-11-09, GitHub does not mark it merged); opened 2026-11-08; +30 / −15 in 1 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [Leviidev/Henge#60](https://github.com/Leviidev/Henge/pull/60): Prevent hvsparse from overwriting its input
 
 - **Description:** _Not yet curated._
-- **GitHub status:** Open; opened 2026-11-09; +23 / −4 in 1 files.
-- **In upstream main:** Not applicable (not merged or integrated).
+- **GitHub status:** Merged on 2026-11-10; opened 2026-11-09; +23 / −4 in 1 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [Leviidev/Henge#61](https://github.com/Leviidev/Henge/pull/61): Block duplicate macOS installs during preflight
 
 - **Description:** _Not yet curated._
-- **GitHub status:** Open; opened 2026-11-09; +6 / −1 in 2 files.
-- **In upstream main:** Not applicable (not merged or integrated).
+- **GitHub status:** Merged on 2026-11-10; opened 2026-11-09; +6 / −1 in 2 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 ### [PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft)
 
@@ -211,6 +316,20 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 | [#288](https://github.com/PDFCraftTool/pdfcraft/pull/288) | fix(n-up): honour the /Rotate of source pages | Merged | Yes |
 | [#292](https://github.com/PDFCraftTool/pdfcraft/pull/292) | fix(uniform-resize): honour the /Rotate of source pages | Merged | Yes |
 | [#293](https://github.com/PDFCraftTool/pdfcraft/pull/293) | fix(ci): normalize extracted AppDir permissions before repacking the Linux AppImage | Merged | Yes |
+| [#307](https://github.com/PDFCraftTool/pdfcraft/pull/307) | fix(fix-page-size): restore blank-page guard dropped when #287 merged | Merged | Yes |
+| [#308](https://github.com/PDFCraftTool/pdfcraft/pull/308) | fix(overlay): apply layers in place so documents keep their data and rotated pages stay upright | Merged | Yes |
+| [#312](https://github.com/PDFCraftTool/pdfcraft/pull/312) | fix(page-numbers): place numbers on the displayed page when it has /Rotate | Merged | Yes |
+| [#313](https://github.com/PDFCraftTool/pdfcraft/pull/313) | fix(header-footer): place headers and footers on the displayed page when it has /Rotate | Merged | Yes |
+| [#314](https://github.com/PDFCraftTool/pdfcraft/pull/314) | fix(watermark): lay the watermark out on the displayed page when it has /Rotate | Merged | Yes |
+| [#315](https://github.com/PDFCraftTool/pdfcraft/pull/315) | fix(crop): map the displayed crop rectangle onto pages that have /Rotate | Merged | Yes |
+| [#316](https://github.com/PDFCraftTool/pdfcraft/pull/316) | fix(extract): retain forms, bookmarks, links and metadata in the pdf-lib path | Merged | Yes |
+| [#317](https://github.com/PDFCraftTool/pdfcraft/pull/317) | fix(rotate-custom): handle blank pages when rotating by an arbitrary angle | Merged | Yes |
+| [#318](https://github.com/PDFCraftTool/pdfcraft/pull/318) | fix(posterize): cut tiles from the displayed page when it has /Rotate | Merged | Yes |
+| [#319](https://github.com/PDFCraftTool/pdfcraft/pull/319) | fix(combine-single-page): size and draw pages as displayed when they have /Rotate | Merged | Yes |
+| [#320](https://github.com/PDFCraftTool/pdfcraft/pull/320) | fix(processors): add the output suffix for upper-case .PDF file names | Merged | Yes |
+| [#321](https://github.com/PDFCraftTool/pdfcraft/pull/321) | fix(tools): add the download suffix for upper-case .PDF file names | Merged | Yes |
+| [#322](https://github.com/PDFCraftTool/pdfcraft/pull/322) | fix(i18n): add the Edit Metadata date strings to the Polish, Czech and Hindi catalogs | Merged | Yes |
+| [#323](https://github.com/PDFCraftTool/pdfcraft/pull/323) | fix(i18n): translate the 35 missing Digital Sign, Edit Metadata and Edit PDF strings in Chinese | Merged | Yes |
 
 #### [PDFCraftTool/pdfcraft#252](https://github.com/PDFCraftTool/pdfcraft/pull/252): fix(studio): show, reorder and remove files before appending
 
@@ -218,7 +337,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-27; opened 2026-10-25; +160 / −1 in 2 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#253](https://github.com/PDFCraftTool/pdfcraft/pull/253): fix(editor): select previous query when reopening find
 
@@ -226,7 +345,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-27; opened 2026-10-25; +79 / −1 in 2 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#254](https://github.com/PDFCraftTool/pdfcraft/pull/254): fix(workflow): preserve literal values during token interpolation
 
@@ -234,7 +353,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-27; opened 2026-10-25; +53 / −10 in 3 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#255](https://github.com/PDFCraftTool/pdfcraft/pull/255): fix(bookmarks): preserve subtree on descendant drop
 
@@ -242,7 +361,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-27; opened 2026-10-25; +104 / −8 in 2 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#257](https://github.com/PDFCraftTool/pdfcraft/pull/257): fix(page-labels): preserve Unicode prefixes in saved PDFs
 
@@ -250,7 +369,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-27; opened 2026-10-26; +28 / −1 in 2 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#264](https://github.com/PDFCraftTool/pdfcraft/pull/264): fix(page-labels): prevent oversized ranges from freezing preview and export
 
@@ -258,7 +377,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-29; opened 2026-10-27; +110 / −113 in 5 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#265](https://github.com/PDFCraftTool/pdfcraft/pull/265): fix(pdf-to-zip): preserve documents with duplicate filenames
 
@@ -266,7 +385,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-29; opened 2026-10-27; +84 / −3 in 3 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#266](https://github.com/PDFCraftTool/pdfcraft/pull/266): fix(rotate): retain editable forms, bookmarks and internal links
 
@@ -274,7 +393,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-30; opened 2026-10-28; +127 / −9 in 3 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#267](https://github.com/PDFCraftTool/pdfcraft/pull/267): fix(bookmarks): retain destination position, zoom and fit mode
 
@@ -282,7 +401,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-29; opened 2026-10-28; +137 / −18 in 5 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#268](https://github.com/PDFCraftTool/pdfcraft/pull/268): fix(metadata): preserve unedited fields and honor date opt-out
 
@@ -290,7 +409,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-10-29; opened 2026-10-28; +67 / −1 in 3 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#273](https://github.com/PDFCraftTool/pdfcraft/pull/273): feat(reader): add remembered right-to-left spread order
 
@@ -298,7 +417,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-04; opened 2026-10-29; +183 / −1 in 7 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#274](https://github.com/PDFCraftTool/pdfcraft/pull/274): fix(editor): preserve object aspect ratio while Shift-resizing
 
@@ -306,7 +425,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-04; opened 2026-10-29; +52 / −3 in 3 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#277](https://github.com/PDFCraftTool/pdfcraft/pull/277): feat(bookmarks): move multi-selections across the outline tree
 
@@ -314,7 +433,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-04; opened 2026-11-02; +232 / −86 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#278](https://github.com/PDFCraftTool/pdfcraft/pull/278): test(editor): cover editing PDFs containing zero-width spaces
 
@@ -322,7 +441,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-04; opened 2026-11-02; +164 / −0 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#280](https://github.com/PDFCraftTool/pdfcraft/pull/280): fix(reverse): retain forms, bookmarks, links and metadata when reversing pages
 
@@ -330,7 +449,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-04; opened 2026-11-02; +148 / −13 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#281](https://github.com/PDFCraftTool/pdfcraft/pull/281): fix(add-blank-page): retain forms, bookmarks, links and metadata
 
@@ -338,7 +457,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-04; opened 2026-11-02; +142 / −26 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#282](https://github.com/PDFCraftTool/pdfcraft/pull/282): fix(remove-blank-pages): retain forms, bookmarks, links and metadata
 
@@ -346,7 +465,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-04; opened 2026-11-02; +149 / −5 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#283](https://github.com/PDFCraftTool/pdfcraft/pull/283): fix(background-color): retain forms, bookmarks, links and metadata
 
@@ -354,7 +473,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-04; opened 2026-11-02; +179 / −26 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#284](https://github.com/PDFCraftTool/pdfcraft/pull/284): fix(rotate-custom): retain forms, bookmarks, links and metadata for right-angle rotations
 
@@ -362,7 +481,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-05; opened 2026-11-02; +151 / −4 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#285](https://github.com/PDFCraftTool/pdfcraft/pull/285): fix: let page-embedding tools handle blank pages that have no content stream
 
@@ -370,7 +489,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-05; opened 2026-11-02; +165 / −9 in 14 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#286](https://github.com/PDFCraftTool/pdfcraft/pull/286): fix(organize): retain forms, bookmarks, links and metadata in the pdf-lib path
 
@@ -378,7 +497,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-05; opened 2026-11-02; +164 / −11 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#287](https://github.com/PDFCraftTool/pdfcraft/pull/287): fix(fix-page-size): honour the /Rotate of source pages
 
@@ -386,7 +505,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-05; opened 2026-11-02; +56 / −8 in 2 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#288](https://github.com/PDFCraftTool/pdfcraft/pull/288): fix(n-up): honour the /Rotate of source pages
 
@@ -394,7 +513,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-07; opened 2026-11-02; +124 / −8 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#292](https://github.com/PDFCraftTool/pdfcraft/pull/292): fix(uniform-resize): honour the /Rotate of source pages
 
@@ -402,7 +521,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-07; opened 2026-11-02; +140 / −5 in 4 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [PDFCraftTool/pdfcraft#293](https://github.com/PDFCraftTool/pdfcraft/pull/293): fix(ci): normalize extracted AppDir permissions before repacking the Linux AppImage
 
@@ -410,7 +529,119 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-07; opened 2026-11-02; +57 / −0 in 2 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#307](https://github.com/PDFCraftTool/pdfcraft/pull/307): fix(fix-page-size): restore blank-page guard dropped when #287 merged
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +1 / −1 in 1 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#308](https://github.com/PDFCraftTool/pdfcraft/pull/308): fix(overlay): apply layers in place so documents keep their data and rotated pages stay upright
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +145 / −52 in 2 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#312](https://github.com/PDFCraftTool/pdfcraft/pull/312): fix(page-numbers): place numbers on the displayed page when it has /Rotate
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +117 / −2 in 3 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#313](https://github.com/PDFCraftTool/pdfcraft/pull/313): fix(header-footer): place headers and footers on the displayed page when it has /Rotate
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +129 / −7 in 3 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#314](https://github.com/PDFCraftTool/pdfcraft/pull/314): fix(watermark): lay the watermark out on the displayed page when it has /Rotate
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +132 / −1 in 3 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#315](https://github.com/PDFCraftTool/pdfcraft/pull/315): fix(crop): map the displayed crop rectangle onto pages that have /Rotate
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +101 / −2 in 3 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#316](https://github.com/PDFCraftTool/pdfcraft/pull/316): fix(extract): retain forms, bookmarks, links and metadata in the pdf-lib path
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +97 / −15 in 2 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#317](https://github.com/PDFCraftTool/pdfcraft/pull/317): fix(rotate-custom): handle blank pages when rotating by an arbitrary angle
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +20 / −1 in 2 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#318](https://github.com/PDFCraftTool/pdfcraft/pull/318): fix(posterize): cut tiles from the displayed page when it has /Rotate
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +145 / −25 in 3 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#319](https://github.com/PDFCraftTool/pdfcraft/pull/319): fix(combine-single-page): size and draw pages as displayed when they have /Rotate
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +125 / −14 in 3 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#320](https://github.com/PDFCraftTool/pdfcraft/pull/320): fix(processors): add the output suffix for upper-case .PDF file names
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +54 / −20 in 19 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#321](https://github.com/PDFCraftTool/pdfcraft/pull/321): fix(tools): add the download suffix for upper-case .PDF file names
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +71 / −49 in 49 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#322](https://github.com/PDFCraftTool/pdfcraft/pull/322): fix(i18n): add the Edit Metadata date strings to the Polish, Czech and Hindi catalogs
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +15 / −0 in 3 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [PDFCraftTool/pdfcraft#323](https://github.com/PDFCraftTool/pdfcraft/pull/323): fix(i18n): translate the 35 missing Digital Sign, Edit Metadata and Edit PDF strings in Chinese
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Merged on 2026-11-16; opened 2026-11-10; +38 / −3 in 1 files.
+- **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 ### [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 
@@ -424,7 +655,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Open; opened 2026-11-09; +2 / −3 in 1 files.
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 ### [willfaust/Madeira](https://github.com/willfaust/Madeira)
 
@@ -444,6 +675,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 | [#501](https://github.com/willfaust/Madeira/pull/501) | move: log an original that cannot be removed after a verified copy | Merged | Yes |
 | [#502](https://github.com/willfaust/Madeira/pull/502) | vulkan: expose the complete experimental source profile and reproduction artifacts | Draft / experimental | n/a |
 | [#544](https://github.com/willfaust/Madeira/pull/544) | README: say how to add a game after installing | Merged | Yes |
+| [#605](https://github.com/willfaust/Madeira/pull/605) | Translations: 21 short Settings, library and achievements texts in the six languages | Open | n/a |
 
 #### [willfaust/Madeira#396](https://github.com/willfaust/Madeira/pull/396): ntdll: scope failed fixed-address relocation to the existing helper workaround
 
@@ -454,7 +686,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **Upstream commits:** [08bd6e0 (my commit, ancestor of main)](https://github.com/willfaust/Madeira/commit/08bd6e0bbaaeb678b37c0288c1ef4dfd97e7465d)
 - **Replacement / consolidation:** [#447 (replacement, closed)](https://github.com/willfaust/Madeira/pull/447); [#461 (merged integration)](https://github.com/willfaust/Madeira/pull/461)
 - **Note:** tests/x64/fixed-reserve.c is byte-identical on main; virtual_ios.c and the host check were edited later.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#399](https://github.com/willfaust/Madeira/pull/399): build: detect optional rusage diagnostic fields in the iOS SDK
 
@@ -463,7 +695,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Upstream commits:** [a24f19d on main](https://github.com/willfaust/Madeira/commit/a24f19d)
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#400](https://github.com/willfaust/Madeira/pull/400): vulkan: add an opt-in Windows x64 iOS route and reproduction fixtures
 
@@ -474,7 +706,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **Upstream commits:** [ac746ed (my commit, ancestor of main)](https://github.com/willfaust/Madeira/commit/ac746eda2f6de26da0156d445d904331ff7b1429); [7860030 (my merge of main, ancestor of main)](https://github.com/willfaust/Madeira/commit/786003017bf63218399324e1c368b5493133e1a2); [7ed32a9 = #462 integration commit on main](https://github.com/willfaust/Madeira/commit/7ed32a9be9e0729525b80d6bc726cc3a844ffaad)
 - **Replacement / consolidation:** [#454 (replacement, closed)](https://github.com/willfaust/Madeira/pull/454); [#462 (integration, closed; commit on main)](https://github.com/willfaust/Madeira/pull/462)
 - **Note:** Ancestry and file presence on main verified (build/vulkan-ios/*, tests/host/check-vulkan-*.py, tests/x64/vulkan-*.c). I did not verify that every line of the original route is unchanged, nor that the route runs in the current main build.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#451](https://github.com/willfaust/Madeira/pull/451): wine-pe: ship the registered TaskbarList COM server and add x64 activation coverage
 
@@ -485,7 +717,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **Upstream commits:** [a0cfe59 (my commit, ancestor of main)](https://github.com/willfaust/Madeira/commit/a0cfe594dc1533c96507e662502f976b2c0a7a47); [7ed32a9 = #462 integration commit on main](https://github.com/willfaust/Madeira/commit/7ed32a9be9e0729525b80d6bc726cc3a844ffaad)
 - **Replacement / consolidation:** [#444 (replacement, closed)](https://github.com/willfaust/Madeira/pull/444)
 - **Note:** explorerframe.dll, docs/TASKBARLIST.md, the host check and the x64 fixture are byte-identical on main. The device run in my own PR comment was on the original #451 package, not the integrated build.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#456](https://github.com/willfaust/Madeira/pull/456): vulkan: isolate the direct pipeline-cache export sizing fix and regression
 
@@ -496,7 +728,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **Upstream commits:** [2976e64 (my commit, ancestor of main)](https://github.com/willfaust/Madeira/commit/2976e6450520de092467f51cc5b796ea86ada046); [7ed32a9 = #462 integration commit on main](https://github.com/willfaust/Madeira/commit/7ed32a9be9e0729525b80d6bc726cc3a844ffaad)
 - **Replacement / consolidation:** [#462 (integration, closed; commit on main)](https://github.com/willfaust/Madeira/pull/462)
 - **Note:** All 8 files from my commit are byte-identical on main (verified by blob hash).
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#458](https://github.com/willfaust/Madeira/pull/458): docs: record Detroit iPad menu and interactive scene with screenshots
 
@@ -505,7 +737,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Upstream commits:** [fed7f6a on main](https://github.com/willfaust/Madeira/commit/fed7f6a)
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#465](https://github.com/willfaust/Madeira/pull/465): ntdll: decode UTF-8 launch folders before setting the Windows working directory
 
@@ -516,7 +748,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **Upstream commits:** [28ce806 (my commit, ancestor of main)](https://github.com/willfaust/Madeira/commit/28ce806af787222e65bb60e86c447ef04ace812e); [a9ce1d4 = #461 (merged) on main](https://github.com/willfaust/Madeira/commit/a9ce1d403b608108a141a260dccefe73cde940b4)
 - **Replacement / consolidation:** [#461 (merged integration PR, not mine)](https://github.com/willfaust/Madeira/pull/461); [#462](https://github.com/willfaust/Madeira/pull/462)
 - **Note:** Docs and fixture are byte-identical on main; env_ios.c was edited later (including by #471).
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#471](https://github.com/willfaust/Madeira/pull/471): ntdll: reserve enough startup storage for long working directories
 
@@ -526,7 +758,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **Maintainer / reviewer:** [Maintainer: squashed onto main as 16b3382b, authorship and sign-off kept.](https://github.com/willfaust/Madeira/pull/471#issuecomment-6461227579)
 - **Upstream commits:** [16b3382 (author: me, ancestor of main)](https://github.com/willfaust/Madeira/commit/16b3382b95c1f4500b4efcb00619483974a83f78)
 - **Note:** Closed by hand because its branch history contained the #461 draft head.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#472](https://github.com/willfaust/Madeira/pull/472): steam: avoid automatic cloud transfers for unreadable local saves
 
@@ -536,7 +768,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **Maintainer / reviewer:** [Maintainer: squashed onto main as 0b4eee5a, authorship and sign-off kept.](https://github.com/willfaust/Madeira/pull/472#issuecomment-6461228278)
 - **Upstream commits:** [0b4eee5 (author: me, ancestor of main)](https://github.com/willfaust/Madeira/commit/0b4eee5a6ca891b824c2f487438c347c780d5509)
 - **Note:** Closed by hand for the same reason as #471.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#473](https://github.com/willfaust/Madeira/pull/473): runtime: release task and copied values in entitlement checks
 
@@ -545,7 +777,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **In upstream `main`:** Yes, by curated evidence below; cited commits re-checked as reachable from `main`.
 - **Maintainer / reviewer:** [Maintainer: on main as dab079b7, part of wave 6 (c3279921); closed because stacked commits were already on main.](https://github.com/willfaust/Madeira/pull/473#issuecomment-6567717620)
 - **Upstream commits:** [dab079b (author: me, ancestor of main)](https://github.com/willfaust/Madeira/commit/dab079b70bba7e2b37e3c7f7326130c503fb2ead)
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#486](https://github.com/willfaust/Madeira/pull/486): steam: propagate local depot write errors without retrying healthy CDNs
 
@@ -553,7 +785,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-02; opened 2026-10-29; +147 / −4 in 2 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#501](https://github.com/willfaust/Madeira/pull/501): move: log an original that cannot be removed after a verified copy
 
@@ -561,7 +793,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-02; opened 2026-10-31; +7 / −1 in 1 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#502](https://github.com/willfaust/Madeira/pull/502): vulkan: expose the complete experimental source profile and reproduction artifacts
 
@@ -570,7 +802,7 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **In upstream main:** Not applicable (not merged or integrated).
 - **Maintainer / reviewer:** No comment or review on the PR.
 - **Note:** Experimental draft; no integration claimed.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 #### [willfaust/Madeira#544](https://github.com/willfaust/Madeira/pull/544): README: say how to add a game after installing
 
@@ -578,7 +810,15 @@ A maintainer's thanks, or a PR simply being closed, is never treated as integrat
 - **GitHub status:** Merged on 2026-11-05; opened 2026-11-02; +5 / −0 in 1 files.
 - **In upstream `main`:** Yes, the merge commit is reachable from `main` (checked via the compare API).
 - **Maintainer / reviewer:** No comment or review on the PR.
-- **Last verified:** 2026-11-02 (curated notes) / 2026-11-09 (live status)
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
+
+#### [willfaust/Madeira#605](https://github.com/willfaust/Madeira/pull/605): Translations: 21 short Settings, library and achievements texts in the six languages
+
+- **Description:** _Not yet curated._
+- **GitHub status:** Open; opened 2026-11-10; +856 / −16 in 1 files.
+- **In upstream main:** Not applicable (not merged or integrated).
+- **Maintainer / reviewer:** No comment or review on the PR.
+- **Last verified:** 2026-11-02 (curated notes) / 2026-11-16 (live status)
 
 <!-- END GENERATED:external -->
 
