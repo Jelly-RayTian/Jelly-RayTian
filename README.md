@@ -25,14 +25,14 @@ Verified against GitHub and upstream `main` history. Each pull request is counte
 | Project | Contribution | Outcome |
 |---|---|---|
 | [willfaust/Madeira](https://github.com/willfaust/Madeira) (C, Swift; Wine/FEX on iOS) | Fixed a startup buffer overwrite for working directories of 260+ characters, with an ASan/UBSan reproduction ([#471](https://github.com/willfaust/Madeira/pull/471)); stopped Steam Cloud sync from treating unreadable saves as local edits ([#472](https://github.com/willfaust/Madeira/pull/472)); Vulkan, TaskbarList and UTF-8 launch-path work ([#400](https://github.com/willfaust/Madeira/pull/400), [#451](https://github.com/willfaust/Madeira/pull/451), [#456](https://github.com/willfaust/Madeira/pull/456), [#465](https://github.com/willfaust/Madeira/pull/465)) | 4 merged, 3 squashed onto `main`, 5 consolidated, 1 experimental draft |
-| [PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft) (TypeScript) | PDF document-integrity fixes: rotate keeps forms, bookmarks and links ([#266](https://github.com/PDFCraftTool/pdfcraft/pull/266)); Unicode page-label prefixes ([#257](https://github.com/PDFCraftTool/pdfcraft/pull/257)); freeze on oversized label ranges ([#264](https://github.com/PDFCraftTool/pdfcraft/pull/264)) | 10 merged, 4 open |
+| [PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft) (TypeScript) | PDF document-integrity fixes: rotate keeps forms, bookmarks and links ([#266](https://github.com/PDFCraftTool/pdfcraft/pull/266)); Unicode page-label prefixes ([#257](https://github.com/PDFCraftTool/pdfcraft/pull/257)); freeze on oversized label ranges ([#264](https://github.com/PDFCraftTool/pdfcraft/pull/264)) | 39 merged, 0 open |
 | [DaKheera47/job-ops](https://github.com/DaKheera47/job-ops) (TypeScript) | Timezone/DST-correct posting dates ([#788](https://github.com/DaKheera47/job-ops/pull/788)); text-PDF import ([#789](https://github.com/DaKheera47/job-ops/pull/789)); resume style metadata ([#787](https://github.com/DaKheera47/job-ops/pull/787)) | 3 merged, 5 open |
 
 Many of these were developed with AI coding assistance, which the PR descriptions state. Test results quoted in the case studies are the ones each PR reports; I mark where upstream validation is independent.
 
 ## Projects
 
-- **[WatDesk](https://github.com/Jelly-RayTian/WatDesk)**: an Edge side-panel extension that gathers Waterloo deadlines, exams and grades from LEARN, Crowdmark and Odyssey into one timeline. Data stays in the browser; passwords are never read. TypeScript, [v1.9.0 released](https://github.com/Jelly-RayTian/WatDesk/releases/latest); Edge Add-ons listing is still under review. Independent student project, not a University of Waterloo product.
+- **[WatDesk](https://github.com/Jelly-RayTian/WatDesk)**: an Edge side-panel extension that gathers Waterloo deadlines, exams and grades from LEARN, Crowdmark and Odyssey into one timeline. Data stays in the browser; passwords are never read. TypeScript, [v1.10.1 released](https://github.com/Jelly-RayTian/WatDesk/releases/latest); live on [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/watdesk/kbfogfkpplnjkcenbpnjilnhhckkdikb). Independent student project, not a University of Waterloo product.
 - **[WechatSignals](https://github.com/Jelly-RayTian/WechatSignals)**: local-first macOS client for analysing one-to-one WeChat chats (read-only access, anonymisation, SQLite, Keychain). TypeScript.
 - **[CodeCompass](https://github.com/Jelly-RayTian/CodeCompass)** and **[Chronicle](https://github.com/Jelly-RayTian/Chronicle)**: local-first desktop apps in Rust (Tauri for CodeCompass).
 - **[Madeira-Experimental](https://github.com/Jelly-RayTian/Madeira-Experimental)**: an unofficial research fork exploring Windows x64 Vulkan on iPad. Incomplete, and not an official Madeira port.
@@ -42,7 +42,7 @@ Many of these were developed with AI coding assistance, which the PR description
 Team projects from hackathons, kept together in the [CommunihacksSeed](https://github.com/CommunihacksSeed) organization. Both were built with teammates and with AI coding assistance.
 
 - **[SeedFlow](https://github.com/CommunihacksSeed/Seedtrack)** (CommuniHacks 2026, Challenge 3): seed request, inventory and order management for Youth in Food Systems. A prototype with fictional demo data, not an official YFS service.
-- **[Exodus](https://github.com/CommunihacksSeed/exodus)** (CIVIC Hack 2026): plain-language explanations of City of Toronto council decisions, each statement linked to the official record. [Live site](https://csclub.uwaterloo.ca/~j49ni/exodus/).
+- **[Exodus](https://github.com/CommunihacksSeed/exodus)** (CIVIC Hack 2026): plain-language explanations of City of Toronto council decisions, each statement linked to the official record. Finalist (one of 6 of 27 teams) and winner of **Best Storytelling and Visualizations**. [Live site](https://csclub.uwaterloo.ca/~j49ni/exodus/).
 
 ## Technologies (from the code above)
 
@@ -50,6 +50,6 @@ TypeScript · Rust · C · Swift (small changes) · Python (tests and tooling) �
 
 ## Education
 
-University of Waterloo, Honours Bachelor of Mathematics (Co-operative Program), started September 2026. Currently looking for software engineering co-op and internship opportunities.
+University of Waterloo, Honours Bachelor of Mathematics (Co-operative Program), started September 2026. During my study term I am looking to join an early-stage team part-time (10–15 hours/week) to build real products; my first official Co-op work term is May–Aug 2027.
 
 <sub>Statistics are refreshed by [a scheduled workflow](.github/workflows/update-contributions.yml); see [MAINTAINING.md](MAINTAINING.md).</sub>
